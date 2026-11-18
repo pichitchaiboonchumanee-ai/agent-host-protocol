@@ -1,10 +1,4 @@
----
-description: >-
-  Migrate code that talks to or implements the Agent Host Protocol from the
-  pre-channels model to the current channel-based model. Use when asked to
-  upgrade an AHP client/server, when seeing references to `agenthost:/root`,
-  `<provider>:/<uuid>` session URIs, a `notification` wrapper method, an
-  `envelope` field inside `action` params, a `resource` field on
+
   subscribe/unsubscribe/snapshot results, or `session` / `terminal` /
   `changeset` fields on command params or action payloads.
 ---
